@@ -5,12 +5,15 @@ import NewName from './Basic2.jsx';
 import One from './Prop.jsx';
 import Two from './Prop2.jsx';
 {/*let edit="This is a property(this is for variables as a property*/}
+{/*const properties={
+    edit:"This is a property"
+}(this is for objects as a property*/}
 function App() {
   return (
     <div className="App">
     <NewComp/> {/*Call the component*/}
     <NewName/>
-    <One edit="This is a property"/>{/*Call the child component with property as edit(for variables just pass edit={edit})*/}
+    <One edit="This is a property"/>{/*Call the child component with property as edit(for variables just pass edit={edit}, for objects edit={properties.edit})*/}
     <Two change="3.14"/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
