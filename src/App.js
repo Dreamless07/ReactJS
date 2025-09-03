@@ -4,6 +4,7 @@ import NewComp from './Basic.jsx';//import the component from jsx file
 import NewName from './Basic2.jsx';
 import One from './Prop.jsx';
 import Two from './Prop2.jsx';
+import HookComp from './HooksBasic.jsx';
 {/*let edit="This is a property(this is for variables as a property*/}
 {/*const properties={
     edit:"This is a property"
@@ -15,6 +16,7 @@ function App() {
     <NewName/>
     <One edit="This is a property"/>{/*Call the child component with property as edit(for variables just pass edit={edit}, for objects edit={properties.edit})*/}
     <Two change="3.14"/>
+    <HookComp/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
